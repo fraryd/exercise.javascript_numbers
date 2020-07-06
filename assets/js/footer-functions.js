@@ -9,9 +9,6 @@ subtractionAndMultiplicationTest();
 subtractionAndDivisonTest();
 allOperatorTest();
 
-
-
-
 function additionTest() {
     testCompute(2, "1+1");
     testCompute(3, "1+1+1");
