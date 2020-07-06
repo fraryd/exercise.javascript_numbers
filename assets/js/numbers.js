@@ -2,23 +2,27 @@
 
 function compute(expression) {
     
-let userInput1 = "1";
-let userInput2 = "1";    
+let userInput1 = "";
+let userInput2 = "";    
 // let Operator = "";
-let Equals = "";
+let sum = "";
+// let Equals = "";
 
 
 //Addition
-function addition(answer){
-    for (let i=0; i<answer; i++){
+function addition(num1, num2){
+    
+    for (let i=0; i<num1; i++){
         userInput1 += 1;
     }
-    for(let i=0; i<answer; i++){
+    for(let i=0; i<num2; i++){
         userInput2 += 1;
-        Equals += userInput1 + userInput2;
+        userInput2 += userInput2;
+       
     }
-    return Equals;
+userInput2 += userInput1;
 }
 
-return Equals;
+addition();
+return userInput2;
 }
